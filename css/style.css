@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: .5s;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #fff500;
+}
+header nav .navbar ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+header nav .navbar ul li a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+}
+header nav #img {
+    width: 191px;
+    height: 75px;
+}
+header nav .fz {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+header #one img {
+    width: 1460px;
+    height: 1161px;
+}
+header nav select {
+    background-color: #fff500;
+    border: none;
+}
+#two .div-custom {
+    height: 560px;
+    background: #000;
+    border-radius: 30px;
+}
+#two .div-custom-fff {
+    height: 560px;
+    background: #fff;
+    border-radius: 30px;
+}
+nav .navbar ul li a:hover {
+    border-bottom: 4px solid #000;
+    padding: 10px;
+}
+#three .custom-div {
+    width: 1212px;
+    height: 350px;
+    background: #d9d9d9;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#four ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+#four {
+    background: #000;
+    height: 653px;
+}
+#four ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: medium;
+}
+#four ul li a:hover {
+    border-bottom: 3px solid #fff;
+    padding: 10px;
+}
+#five .div-custom {
+    height: 560px;
+    background: #000;
+    border-radius: 30px;
+}
+#five .div-custom-fff {
+    height: 560px;
+    background: #fff;
+    border-radius: 30px;
+}
+#six .div-custom {
+    height: 560px;
+    background: #000;
+    border-radius: 30px;
+}
+#six .div-custom-fff {
+    height: 560px;
+    background: #fff;
+    border-radius: 30px;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1000px;
+    right: 100px;
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+.button.show {
+    bottom: 100px;
+}
+.orange {
+    width: 235px;
+    height: 60px;
+    background: #FF912C;
+    color: #000;
+    border-radius: 100px;
+    border: none;
+}
+@media (max-width: 574px) {
+    * {
+        text-align: center;
+    }
+}
+.bg-photo {
+    background: url(../img/another\ dog.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
